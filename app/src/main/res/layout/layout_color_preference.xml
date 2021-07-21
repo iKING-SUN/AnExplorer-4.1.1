@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accentColor"
+        android:padding="@dimen/big_spacing"
+        android:text="@string/primary_color"
+        android:gravity="center_horizontal"
+        android:textColor="@color/material_black_protected"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <dev.dworks.apps.anexplorer.ui.CommonFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/big_spacing" >
+
+                <dev.dworks.apps.anexplorer.ui.LineColorPicker
+                    android:id="@+id/color_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="?selectableItemBackground"
+                    android:focusable="true"
+                    app:orientation="horizontal"
+                    app:selectedColorIndex="0" />
+
+                <dev.dworks.apps.anexplorer.ui.LineColorPicker
+                    android:id="@+id/shade_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="?selectableItemBackground"
+                    android:focusable="true"
+                    app:orientation="horizontal"
+                    app:selectedColorIndex="0" />
+
+            </LinearLayout>
+        </ScrollView>
+    </dev.dworks.apps.anexplorer.ui.CommonFrameLayout>
+
+</LinearLayout>

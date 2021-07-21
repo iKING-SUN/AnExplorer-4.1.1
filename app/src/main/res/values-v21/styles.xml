@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ListProgress" parent="@android:style/Widget.Material.ProgressBar"/>
+
+    <style name="PopupTheme" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+    </style>
+</resources>

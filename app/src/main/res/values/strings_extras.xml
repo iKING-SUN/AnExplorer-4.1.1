@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- Menu item title that compress the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_compress" translatable="false">Compress</string>
+    <!-- Menu item title that uncompress the selected documents [CHAR LIMIT=24] -->
+    <string name="menu_uncompress">Uncompress</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_paste">Paste</string>
+    <string name="menu_create_file">Create file</string>
+    <string name="menu_uninstall">Uninstall</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_properties">Properties</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_transfer">Transfer</string>
+    <string name="menu_edit_server">Edit Server</string>
+
+    <string name="root_images">Images</string>
+    <string name="root_audio">Audio</string>
+    <string name="root_videos">Video</string>
+    <string name="root_internal_storage">Internal Storage</string>
+    <string name="root_external_storage">External Storage</string>
+    <string name="root_device_storage">Phone Storage</string>
+    <string name="root_root_storage">Root</string>
+    <string name="root_bluetooth">Bluetooth</string>
+    <string name="root_downloads">Downloads</string>
+    <string name="root_app_backup">App Backup</string>
+    <string name="root_apps">User Apps</string>
+    <string name="root_system_apps">System Apps</string>
+    <string name="root_heat_map">Heat map</string>
+    <string name="root_processes">Processes</string>
+    <string name="root_home">Home</string>
+    <string name="root_connections">Connections</string>
+    <string name="root_document">Documents</string>
+    <string name="root_archive">Archives</string>
+    <string name="root_apk">APK</string>
+    <string name="root_whatsapp">WhatsApp</string>
+    <string name="root_telegram">Telegram</string>
+    <string name="root_telegramx">Telegram X</string>
+    <string name="root_transfer">WiFi Share</string>
+    <string name="root_receive">Received Files</string>
+    <string name="root_cast">Cast Queue</string>
+    <!-- Title for setting that will show all advanced storage devices [CHAR LIMIT=32] -->
+    <string name="pref_advanced_devices">Display advanced</string>
+    <!-- Title for setting that will show file sizes for all documents [CHAR LIMIT=32] -->
+    <string name="pref_file_size">Display file size</string>
+
+    <!--
+         Status indicating that the download has been queued to start in the future.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=24]
+    -->
+    <string name="download_queued">Queued</string>
+    <!--
+         Status indicating that the system is currently downloading the file.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=24]
+    -->
+    <string name="download_running">In progress</string>
+    <!--
+         Status indicating that the download has ended without completing successfully.  Appears for
+         an individual item in the download list.  [CHAR LIMIT=24]
+    -->
+    <string name="download_error">Unsuccessful</string>
+
+    <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
+    <string name="download_running_percent">In progress, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="name">AnExplorer</string>
+    <string name="app_name">AnExplorer</string>
+    <string name="app_ver">Another Explorer</string>
+    <string name="pref_folder_size">Display folder size</string>
+    <string name="pref_thumbnail">Display file thumbnails</string>
+    <string name="pref_hidden">Show hidden files</string>
+    <string name="pref_root_mode">Display Root Mode</string>
+    <string name="pref_folder_animations">Enable folder animations</string>
+    <string name="pref_recent_media">Show recent media</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Folder</string>
+    <string name="pref_header_security">Security</string>
+    <string name="pref_header_theme">Theme</string>
+    <string name="pref_header_advanced">Advanced</string>
+    <string name="pref_title_pin_enable">Enable PIN Protection</string>
+    <string name="pref_description_pin_enable">Gives security to your files</string>
+    <string name="loading">Loading...</string>
+    <string name="pref_foreground_color_title">Primary Color</string>
+    <string name="pref_foreground_color_description">The main color of actionbar</string>
+    <string name="pref_accent_color_title">Accent Color</string>
+    <string name="pref_accent_color_description">The secondary color</string>
+
+    <string name="pref_theme_style_title">Theme Style</string>
+
+    <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+    <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
+    <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+    <string name="kilobytes"><xliff:g id="count">%s</xliff:g> KB</string>
+    <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5] -->
+    <string name="megabytes"><xliff:g id="count">%s</xliff:g> MB</string>
+    <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5] -->
+    <string name="gigabytes"><xliff:g id="count">%s</xliff:g> GB</string>
+    <string name="save">Save</string>
+    <string name="unsaved_changes">Unsaved Changes</string>
+    <string name="unsaved_changes_desc">You have unsaved changes, Save them?</string>
+    <string name="unable_to_open_app">Unable to open app</string>
+    <string name="saf_issue">Your System doesnt allow this operation on Secondary storage on Kitkat. Upgrade to Lollipop to solve this issue..</string>
+    <string name="rename_error">Failed to rename</string>
+    <string name="compress_error">Failed to compress</string>
+    <string name="uncompress_error">Failed to uncompress</string>
+    <string name="upload_error">Failed to upload</string>
+    <string name="add">Add</string>
+    <string name="made_with_love">Made with Love</string>
+
+    <string-array name="theme_style_names">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Set by Battery Saver</item>
+        <item>Use system default</item>
+    </string-array>
+
+    <string-array name="theme_style_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="root_usb">USB Storage</string>
+    <string name="root_documents">Documents</string>
+
+    <string name="ext_media_status_removed" msgid="6576172423185918739">"Removed"</string>
+    <string name="ext_media_status_unmounted" msgid="2551560878416417752">"Ejected"</string>
+    <string name="ext_media_status_checking" msgid="6193921557423194949">"Checking…"</string>
+    <string name="ext_media_status_mounted" msgid="7253821726503179202">"Ready"</string>
+    <string name="ext_media_status_mounted_ro" msgid="8020978752406021015">"Read-only"</string>
+    <string name="ext_media_status_bad_removal" msgid="8395398567890329422">"Removed unsafely"</string>
+    <string name="ext_media_status_unmountable" msgid="805594039236667894">"Corrupted"</string>
+    <string name="ext_media_status_ejecting" msgid="5463887263101234174">"Ejecting…"</string>
+    <string name="ext_media_status_formatting" msgid="1085079556538644861">"Formatting…"</string>
+
+    <string name="storage_internal" msgid="4891916833657929263">"Internal storage"</string>
+    <string name="storage_sd_card" msgid="3282948861378286745">"SD card"</string>
+    <string name="storage_sd_card_label" msgid="6347111320774379257">"<xliff:g id="MANUFACTURER">%s</xliff:g> SD card"</string>
+    <string name="storage_usb_drive" msgid="6261899683292244209">"USB drive"</string>
+    <string name="storage_usb_drive_label" msgid="4501418548927759953">"<xliff:g id="MANUFACTURER">%s</xliff:g> USB drive"</string>
+
+    <string name="start_ftp">Start</string>
+    <string name="stop_ftp">Stop</string>
+    <string name="ftp_status_running">Running</string>
+    <string name="ftp_status_not_running">Not Running</string>
+    <string name="local_no_connection">Not connected to any Network like WIFI, Ethernet or WIFI API</string>
+    <string name="ftp_notif_starting">FTP Server is starting</string>
+    <string name="ftp_notif_title">FTP Server Started</string>
+    <string name="ftp_notif_text">%s</string>
+    <string name="ftp_notif_stop_server">STOP</string>
+    <string name="toggle_messages">FTP Server</string>
+
+    <string-array name="connection_types">
+        <item>FTP</item>
+        <item>FTPS</item>
+    </string-array>
+
+    <string name="primary_color">Primary Color</string>
+    <string name="accent_color">Accent Color</string>
+
+    //PRO
+    <string name="app_pro">AnExplorer Pro</string>
+    <string name="app_pro_content">Unlocks extra features, such as the Network &amp; Cloud Storage,
+        Root Storage, USB Storage and removes ads. \n\nThe source code of AnExplorer is available on GitHub.
+        You are welcome to compile the pro version yourself for free.
+        \n\nHowever if you like what I do and love AnExplorer and want us to survive,
+        support the development and receive updates through the Play Store, consider purchasing
+        AnExplorer Pro.
+        \n\nThank you,\nHari</string>
+    <string name="restoring_purchase">Restoring purchase…</string>
+    <string name="could_not_restore_purchase">Could not restore purchase.</string>
+    <string name="purchase">Purchase</string>
+    <string name="restore">Restore</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="support_app">Support AnExplorer</string>
+    <string name="restored_previous_purchase_please_restart">Restored previous purchase.</string>
+
+    <string name="casty_introduction_text">Use this button to connect with Chromecast</string>
+    <string name="queue_empty">No items in Queue!</string>
+    <string name="show_queue">Show Queue</string>
+    <string name="queue_list">Cast Queue</string>
+    <string name="action_clear_queue">Clear Queue</string>
+    <string name="action_delete">Delete Item</string>
+
+    <plurals name="queue_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+
+    <string name="ftp_server_help">Transfer to PC Help</string>
+    <string name="ftp_server_help_description">
+        1. Tap Start button to start FTP server.\n
+        2. You will see a FTP url, enter this url in the browser of PC.\n
+        3. Now you can view all your files on PC without any cables
+    </string>
+</resources>
